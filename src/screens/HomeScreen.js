@@ -64,13 +64,7 @@ const HomeScreen = ({navigation}) => {
     );
   };
 
-  const getItem = (item) => {
-    // Function for click on an item
-    alert('Id : ' + item.id + ' Title : ' + item.title);
-  };
-
-
-    const Card = ({place}) => {
+   /* const Card = ({place}) => {
         return (
           <TouchableOpacity
             activeOpacity={0.8}
@@ -95,6 +89,7 @@ const HomeScreen = ({navigation}) => {
           </TouchableOpacity>
         );
       };
+      */
 
       return (
         <SafeAreaView style={{flex: 1, backgroundColor: 'orange',elevation:20}}>
